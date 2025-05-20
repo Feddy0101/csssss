@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Zad8 Ulanicki</title>
+        <style>
+            p, ul li {
+                font-family: Arial, Helvetica, sans-serif;
+            }
+        </style>
+    </head>
+    <body>
+        <font size="32px">Wewnętrzny arkusz stylów</font>
+        <ol type="1">
+            <li>
+                <h1>Gdzie jest wstawiany</h1>
+                <p>
+                    Wewnętrzny arkusz stylów umieszczany jest w sekcji <head> dokumentu HTML, między znacznikami <style> ... </style>. Dzięki temu style zapisane w tym arkuszu dotyczą całej strony, ale są zapisane wewnątrz pliku HTML, a nie w osobnym pliku.
+                </p>
+            </li>
+            <li>
+                <h1>Składania teoretyczna</h1><br>
+                <textarea readonly="true" rows="19" cols="40"><html>
+        <head>
+    <style type="text/css">
+    selektor { cecha1: wartość1; cecha2: wartość2; }
+         </style>
+    </head>
+</html></textarea>
+            </li>
+            <li>
+                <h1>Jakie mogą być selektory</h1>
+                <ul type="disc">
+                    <li>typu</li>
+                    <li>klasy</li>
+                    <li>uniwersalny</li>
+                    <li>indetyfikatora</li>
+                    <li>złożone</li>
+                    <li>atrybutów</li>
+                    <li>pseudoklas i pseudoelementów</li>
+                </ul>
+            </li>
+            <li>
+                <h1>Jakie mogą być cechy i wartości</h1>
+                <p>
+                    Cechy w CSS określają wygląd elementów, np. color do koloru tekstu, font-size do rozmiaru czcionki, background-color do tła, czy margin do odstępów. Wartości to konkretne ustawienia, jak kolory (red, #ffcc00), rozmiary (12px, 1em), czcionki (Arial, Verdana), a także wartości procentowe czy automatyczne
+                </p>
+            </li>
+        </ol>
+    </body>
+</html>
