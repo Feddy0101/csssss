@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Zadanie 32 Ulanicki</title>
+        <style>
+            th {
+                text-align: center;
+                padding: 4px;
+                padding-left: 30px;
+                padding-right: 30px;
+            }
+
+            td {
+                text-align: center;
+                padding: 4px;
+            }
+
+            p {
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+        </style>
+    </head>
+    <body>
+        <ol type="1">
+            <li>
+                <h1>Podaj definicję modelu pudełkowego.</h1>
+                <p>Każdy element w dokumencie HTML, otacza się prostokątnym obszarem zwanym pudełkiem (ang. Box model).</p>
+            </li>
+            <li>
+                <h1>Wykonaj oraz uzupełnij tabelę:</h1>
+                <table border="1">
+                    <thead>
+                        <th>zawartość</th>
+                        <th>Opis</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>content</td>
+                            <td>Content to właściwa zawartość elementu, taka jak tekst, obraz lub inna treść, która znajduje się wewnątrz jego granic. To właśnie ten obszar jest otaczany przez padding, border i margin</td>
+                        </tr>
+                        <tr>
+                            <td>border</td>
+                            <td>Border to obramowanie wokół elementu, które oddziela go od otoczenia. Może mieć różną grubość, kolor i styl (np. ciągły, przerywany).</td>
+                        </tr>
+                        <tr>
+                            <td>padding</td>
+                            <td>Padding to wewnętrzny odstęp między zawartością elementu (np. tekstem) a jego krawędzią. Używa się go, aby zwiększyć przestrzeń wewnątrz elementu bez zmiany jego obramowania.</td>
+                        </tr>
+                        <tr>
+                            <td>margin</td>
+                            <td>Margin to zewnętrzny odstęp między elementem a innymi elementami wokół niego. Służy do kontrolowania przestrzeni na zewnątrz obramowania danego elementu.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </li>
+            <li>
+                <h1>Podaj dwie uwagi na temat modelu pudełkowego.</h1>
+                <p>
+                    Uwaga 1.
+                    Kolejność obszarów w modelu pudełkowym to: content → padding → border → margin — każdy z tych obszarów wpływa na ostateczny rozmiar i wygląd elementu na stronie.
+                </p>
+                <p>
+                    Uwaga 2.
+                  Domyślnie przeglądarki sumują padding i border do szerokości/ wysokości elementu, ale można to zmienić, ustawiając box-sizing: border-box, co ułatwia kontrolowanie rozmiaru elementów.
+                </p>
+            </li>
+            <li>
+                <h1>Wstaw grafikę obrazującą model pudełkowy.</h1>
+                <img src="zdjecie.png" alt="Model pudełkowy">
+            </li>
+            <li>
+                <h1>Wstaw grafikę obrazującą różnicę pomiędzy paddingiem i marginesem wraz z opisem.</h1>
+                <img src="zdjecie2.png" alt="Różnica pomiędzy paddingiem i marginesem">
+            </li>
+        </ol>
+    </body>
+</html>
+<!-- Dawid Ulanicki -->
